@@ -1,0 +1,72 @@
+.google-box {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.main {
+    background-color: rgba(180, 248, 245, 0.829);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.main-text {
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.search {
+    text-align: center;
+
+}
+
+.btn {
+    margin-bottom: 8px;
+}
+
+.boxes {
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+}
+
+.box1 {
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(98, 230, 223);
+    float: left;
+    padding-top: 30px;
+   
+    
+}
+.box2 {
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(80, 212, 206);
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.box3 {
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(32, 168, 161);
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+}
+
+.ft {
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    
+}
