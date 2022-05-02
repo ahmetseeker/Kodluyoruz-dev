@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+        <div id="toast-message" class="text-center"></div>
+      <div class="list-header text-center pt-5">
+        <img
+          class="list-img"
+          src="img/Kodluyoruz-logo-300x62-1.png"
+          alt="Kodluyoruz Logo"
+        />
+        <div class="header-text font-weight-bold p-3">To Do List</div>
+        <form id="addTaskForm">
+          <div class="input-group p-5">
+            <input
+              type="text"
+              class="form-control"
+              id="txtTaskName"
+              name="taskName"
+              placeholder="Type A Task To Add"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-primary" id="addNewTaskBtn" type="submit">
+                Add <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+        <div class="card mt-3">
+          <div class="card-header">
+            <div>
+                <ul id="task-list" class="list-group list-group-flush"></ul>
+              </div>
+          </div>
+          <div class="card-body">
+            <a href="#" id="btnDeleteAll" class="btn btn-danger btn-sm float-right delete-all m-3">
+                Delete All
+            </a>
+          </div>
+        </div>
+      
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
